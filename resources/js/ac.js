@@ -17,6 +17,6 @@ function quen_mat_khau_success() {
     window.location.href = "quen_mat_khau_success.html";
 }
 function logg() {
-    alert("end");
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
 
