@@ -13,4 +13,10 @@ function dang_ki_success() {
 function dang_nhap_success() {
     window.location.href = "dang_nhap_success.html";
 }
+function quen_mat_khau_success() {
+    window.location.href = "quen_mat_khau_success.html";
+}
+function logg() {
+    alert("end");
+}
 
