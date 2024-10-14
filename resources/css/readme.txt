@@ -1,1 +1,1 @@
-this foder include css code
+this folder include css code
