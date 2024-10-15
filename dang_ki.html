@@ -33,20 +33,33 @@
         <div style="margin-top: 25px;" class="type_center">
             <p class="type_p">Tên đăng nhập:</p>
             <input class="type_input type_snape_input" type="text" id="name_user">
-            <p class="type_p">Mật khẩu:</p>  
+            <p class="type_p">Mật khẩu:</p>
             <input class="type_input type_snape_input" type="password" id="pass_user_dang_ki">
-            <p class="type_p">Nhập lại mật khẩu:</p>  
+            <p class="type_p">Nhập lại mật khẩu:</p>
             <input class="type_input type_snape_input" type="password" id="re_pass_user_dang_ki">
-        
             <div>
-                <div class="clearfix"></div>  
-                <a href="dang_nhap.html" style="float: left;"class="type_a">Đã có tài khoản?</a>
-                <div class="clearfix"></div>     
+                <div class="clearfix"></div>
+                <a href="dang_nhap.html" style="float: left;" class="type_a">Đã có tài khoản?</a>
+                <div class="clearfix"></div>
             </div>
             <div style="padding-top: 10px;" class="type_snape_button">
-                <button onclick="dang_ki_success()" type="button" class="type_button" >Đăng kí</button>
+                <button onclick="dang_ki_success()" type="button" class="type_button">Đăng kí</button>
             </div>
-          
+        </div>
+    </div>
+    <div id="content_dang_ki_success" class="type_grid type_center hidden">
+        <div style="margin-top: 70px; ">
+            <h1 class="type_h1">Đăng kí thành công!</h1>
+        </div>
+        <h2 class="type_h1"></h2>
+        <div style="margin-top: 70px;" class="type_center">
+            <div style="position: relative;" class="">
+                <i class="fa-solid fa-check type_check type_center"></i>
+            </div>
+            <div style="margin-top: 140px;" class="type_snape_button">
+                <button onclick="dang_nhap()" class="type_button">Đăng nhập</button>
+            </div>
+        </div>
     </div>
     <script src="resources\js\ac.js"></script>
 </body>

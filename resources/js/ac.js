@@ -1,3 +1,4 @@
+const button = document.getElementById("myButton");
 
 
 function dang_nhap() {
@@ -8,13 +9,25 @@ function dang_ki() {
 }
 
 function dang_ki_success() {
-    window.location.href = "dang_ki_success.html";
+    content_dang_ki.classList.remove("visible");
+    content_dang_ki.classList.add("hidden");
+    content_dang_ki_success.classList.remove("hidden");
+    content_dang_ki_success.classList.add("visible");
+    
 }
+
 function dang_nhap_success() {
-    window.location.href = "dang_nhap_success.html";
+    content_dang_nhap.classList.remove("visible");
+    content_dang_nhap.classList.add("hidden");
+    content_dang_nhap_success.classList.remove("hidden");
+    content_dang_nhap_success.classList.add("visible");
+    
 }
 function quen_mat_khau_success() {
-    window.location.href = "quen_mat_khau_success.html";
+    content_quen_mat_khau.classList.remove("visible");
+    content_quen_mat_khau.classList.add("hidden");
+    content_quen_mat_khau_success.classList.remove("hidden");
+    content_quen_mat_khau_success.classList.add("visible");
 }
 function logg() {
     window.location.href = "https://www.youtube.com/watch?v=xvFZjo5PgG0";
