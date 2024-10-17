@@ -45,7 +45,7 @@ body{
     background-color: rgb(250, 250, 250) ;
 }
 .div1_shadow{
-    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.5); 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }
 .div2_shadow{
     position: absolute;
