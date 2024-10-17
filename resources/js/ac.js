@@ -30,6 +30,6 @@ function quen_mat_khau_success() {
     content_quen_mat_khau_success.classList.add("visible");
 }
 function logg() {
-    window.location.href = "https://www.youtube.com/watch?v=xvFZjo5PgG0";
+    window.location.href = "main_screen.html";
 }
 

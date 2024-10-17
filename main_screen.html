@@ -10,22 +10,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3043238ed0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="resources\css\styles.css">
-    <link rel="stylesheet" href="vendors\css\grid.css">
     <link rel="stylesheet" href="resources\css\animate.css">
     <link rel="stylesheet" href="vendors\css\styles.css">
     <link rel="stylesheet" href="resources\css\main.css">
+    <link rel="stylesheet" href="vendors\css\menu1.css">
+    <script src="resources\js\ac_main.js"></script>
 </head>
 <style>
 
 </style>
 
 <body>
-        <div class="div1_back_ground div1_shadow">
-            <div class="div2_back_ground div2_shadow">
+        
+            <div id="div1" class="div1_back_ground div1_shadow">
+                <div class="div_task ">
+                    <div class="div2_back_ground div2_shadow">
+                    </div>
+                    <div class="div3_back_ground div2_shadow">
+                        <label class="bar type_center" for="check">
+                            <input   type="checkbox" onchange="checkUncheck(this)" id="check">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </label>
+                    </div>
+                    <p style="padding-top: 100px;">click menu</p>
+                </div>
+                
             </div>
-            <div class="div3_back_ground div2_shadow">
+            <div class="div2_2 div1_shadow">
+                <button onclick="click1()" style="">click me</button>
             </div>
-        </div>
+            
+        
         
 </body>
 
