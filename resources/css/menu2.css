@@ -1,0 +1,59 @@
+.div_menu{
+    z-index: -1;
+    position: fixed; /* Cố định vị trí so với màn hình */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: aqua;
+    margin-left: 0.5%;
+    width: 65px;
+    border-radius: 5px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.ele1{
+   
+}
+.c1{
+    background-color: red; /* Màu nền đỏ */
+    border-radius: 5px; /* Bo tròn góc nếu cần */
+    padding: 5px; /* Khoảng cách giữa icon và viền */
+    box-sizing: content-box; /* Đảm bảo padding không ảnh hưởng kích thước */
+  
+}
+.animate_ele1_scare {
+    stroke: url(#gradientStroke); /* Stroke ban đầu */
+    stroke-width: 10;
+    transition: stroke 0.5s ease; /* Hiệu ứng mượt khi đổi stroke */
+}
+  
+  /* Khi hover vào SVG */
+  .rotate:hover {
+    stroke: url(#gradient); /* Đổi stroke sang gradient khác khi hover */
+}
+.img_ele_1{
+    opacity: 1; /* Độ mờ 1 (hiện) */
+    visibility: visible; /* Hiện phần tử */
+    transition: opacity 2s ease, visibility 2s ease; /* Thời gian chuyển tiếp cho cả opacity và visibility */
+
+}
+.img_ele_1:hover{
+    opacity: 0; /* Độ mờ 1 (hiện) */
+    visibility: hidden; /* Hiện phần tử */
+    transition: opacity 2s ease, visibility 2s ease; /* Thời gian chuyển tiếp cho cả opacity và visibility */
+
+}
+.img_ele_2{
+    opacity: 0; /* Độ mờ 1 (hiện) */
+    visibility: hidden; /* Hiện phần tử */
+    transition: opacity 2s ease, visibility 2s ease; /* Thời gian chuyển tiếp cho cả opacity và visibility */
+
+}
+.img_ele_2:hover{
+    opacity: 1; /* Độ mờ 1 (hiện) */
+    visibility: visible; /* Hiện phần tử */
+    transition: opacity 2s ease, visibility 2s ease; /* Thời gian chuyển tiếp cho cả opacity và visibility */
+
+}

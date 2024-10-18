@@ -58,7 +58,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    
+
     z-index: -1;
     margin-left: 0.5%;
     margin-top: 0.5%;
@@ -66,4 +66,7 @@ body{
     margin-right: 0.5%;
     border-radius: 5px;
     width: 60px;
+}
+.gradien_color{
+    color: linear-gradient(to top right, rgb(163, 91, 248), rgb(71, 80, 235)) !important;
 }
