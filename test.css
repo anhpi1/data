@@ -1,21 +1,31 @@
-.ckb {
-    display: none; /* Ẩn checkbox */
-}
 
-.ckb + .label1 {
+  .tooltip {
+    position: relative;
     display: inline-block;
     cursor: pointer;
-    width: 24px; /* Kích thước label */
-    height: 24px;
-    background-image: url('resources/svg/home2.svg');
-    background-size: cover;
-}
+  }
 
-.ckb:checked + .label1 {
-    /* Thay đổi hình ảnh hoặc thêm hiệu ứng khi checkbox được chọn */
-    background-image: url('resources/svg/home3.svg');
-}
-.ckb + .label1:hover {
-    /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home3.svg');
-}
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Vị trí của tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Đẩy tooltip lên trên phần tử */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+

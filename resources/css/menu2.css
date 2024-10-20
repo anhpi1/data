@@ -1,17 +1,15 @@
 .div_menu{
-    z-index: -1;
+    
     position: fixed; /* Cố định vị trí so với màn hình */
-    top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     position: absolute;
-    background-color: aqua;
+    
     margin-left: 0.5%;
-    width: 50px;
+    width: 60px;
     border-radius: 5px;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+    height: 190px;
 }
 
 .c1{
