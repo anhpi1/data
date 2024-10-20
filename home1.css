@@ -7,7 +7,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home1.svg');
+    background-image: url('resources/svg/home01.svg');
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home11.svg');
+    background-image: url('resources/svg/home1.svg');
 }
 
 
@@ -37,7 +37,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home2.svg');
+    background-image: url('resources/svg/home02.svg');
     background-size: cover;
 }
 
@@ -53,7 +53,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home22.svg');
+    background-image: url('resources/svg/home2.svg');
 }
 
 
@@ -67,7 +67,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home3.svg');
+    background-image: url('resources/svg/home03.svg');
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home33.svg');
+    background-image: url('resources/svg/home3.svg');
 }
 
 
@@ -97,7 +97,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home4.svg');
+    background-image: url('resources/svg/home04.svg');
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home44.svg');
+    background-image: url('resources/svg/home4.svg');
 }
 
 
@@ -127,7 +127,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home5.svg');
+    background-image: url('resources/svg/home05.svg');
     background-size: cover;
 }
 
@@ -143,7 +143,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home55.svg');
+    background-image: url('resources/svg/home5.svg');
 }
 
 
@@ -157,7 +157,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home6.svg');
+    background-image: url('resources/svg/home06.svg');
     background-size: cover;
 }
 
@@ -173,7 +173,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home66.svg');
+    background-image: url('resources/svg/home6.svg');
 }
 
 
@@ -187,7 +187,7 @@
     cursor: pointer;
     width: 40px; /* Kích thước label */
     height: 40px;
-    background-image: url('resources/svg/home7.svg');
+    background-image: url('resources/svg/home07.svg');
     background-size: cover;
 }
 
@@ -203,7 +203,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     /* Thay đổi hình ảnh khi di chuột vào label */
-    background-image: url('resources/svg/home77.svg');
+    background-image: url('resources/svg/home7.svg');
 }
 
 .tooltip {
@@ -226,7 +226,7 @@
     position: absolute;
     z-index: 12;
     left: 50px; /* Đẩy tooltip sang bên trái biểu tượng */
-    top: 21px; /* Căn giữa theo chiều dọc */
+    top: 20px; /* Căn giữa theo chiều dọc */
     transform: translateY(-50%); /* Đẩy tooltip lên giữa */
     opacity: 0;
     transition: opacity 0s; /* Xuất hiện ngay lập tức */
