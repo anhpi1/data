@@ -225,8 +225,8 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
     position: absolute;
     z-index: 12;
-    left: 30px; /* Đẩy tooltip sang bên trái biểu tượng */
-    top: 10px; /* Căn giữa theo chiều dọc */
+    left: 50px; /* Đẩy tooltip sang bên trái biểu tượng */
+    top: 21px; /* Căn giữa theo chiều dọc */
     transform: translateY(-50%); /* Đẩy tooltip lên giữa */
     opacity: 0;
     transition: opacity 0s; /* Xuất hiện ngay lập tức */
