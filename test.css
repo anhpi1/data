@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao của viewport */
+    background-color: #f0f0f0; /* Màu nền */
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* Màu nền mặc định của nút */
+    -webkit-mask-image: url('resources/svg/home1.svg'); /* Đường dẫn SVG */
+    mask-image: url('resources/svg/home1.svg');
+    mask-size: cover; /* Đảm bảo mặt nạ bao phủ toàn bộ nút */
+    -webkit-mask-size: cover; /* Tương thích với Safari */
+    display: inline-block;
+    cursor: pointer; /* Đổi con trỏ khi di chuột lên nút */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+#checkbox:checked + .button {
+    background-color: green; /* Thay đổi màu nền khi checkbox được chọn */
+}
+
+.button:hover {
+    background-color: lightgreen; /* Thay đổi màu khi di chuột vào nút */
+}

@@ -1,4 +1,4 @@
-input[type = "checkbox"] {
+.input1[type = "checkbox"] {
   -webkit-appearance: none;
   display: none;
   visibility: hidden;
@@ -35,14 +35,14 @@ input[type = "checkbox"] {
   bottom: 0;
 }
 
-input[type]:checked ~ span.top {
+.input1[type]:checked ~ span.top {
   transform: rotate(45deg);
   transform-origin: top left;
   width: 30px;
   left: 3px;
 }
 
-input[type]:checked ~ span.bottom {
+.input1[type]:checked ~ span.bottom {
   transform: rotate(-45deg);
   transform-origin: top left;
   width: 30px;
@@ -50,7 +50,7 @@ input[type]:checked ~ span.bottom {
   box-shadow: 0 0 10px #495057;
 }
 
-input[type]:checked ~ span.middle {
+.input1[type]:checked ~ span.middle {
   transform: translateX(20px);
   opacity: 0;
 }
