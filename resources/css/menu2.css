@@ -21,16 +21,7 @@
     box-sizing: content-box; /* Đảm bảo padding không ảnh hưởng kích thước */
   
 }
-.animate_ele1_scare {
-    stroke: url(#gradientStroke); /* Stroke ban đầu */
-    stroke-width: 10;
-    transition: stroke 0.5s ease; /* Hiệu ứng mượt khi đổi stroke */
-}
-  
-  /* Khi hover vào SVG */
-  .rotate:hover {
-    stroke: url(#gradient); /* Đổi stroke sang gradient khác khi hover */
-}
+
 .img_ele_1{
     opacity: 1; /* Độ mờ 1 (hiện) */
     visibility: visible; /* Hiện phần tử */
@@ -47,8 +38,8 @@
     opacity: 0; /* Độ mờ 1 (hiện) */
     visibility: hidden; /* Hiện phần tử */
     transition: opacity 2s ease, visibility 2s ease; /* Thời gian chuyển tiếp cho cả opacity và visibility */
-
 }
+
 .img_ele_2:hover{
     opacity: 1; /* Độ mờ 1 (hiện) */
     visibility: visible; /* Hiện phần tử */
